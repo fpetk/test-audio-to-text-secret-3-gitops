@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-audio-to-text-secret-2-model-config
+data:
+  MODEL_ENDPOINT: "https://api.openai.com/v1/audio/transcriptions"
+  MODEL_NAME: ""
